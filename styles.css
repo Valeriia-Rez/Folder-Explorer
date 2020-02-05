@@ -1,0 +1,38 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.material-icons {
+    color: yellow;
+}
+
+.liFile i {
+    color: lightgray;
+}
+
+.select:hover {
+    background-color: rgb(236, 235, 235);
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle {
+    position: absolute;
+    background-color: rgba(243, 97, 97, 0.466);
+    width: 22px;
+    height: 22px;
+    pointer-events: none;
+    border-radius: 50%;
+}
